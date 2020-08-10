@@ -5,6 +5,12 @@ require_once APPPATH. 'core/MY_RestController.php';
 
 class Api extends MY_RestController
 {
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->auth();
+    }
 	
 	public function index_get()
 	{
