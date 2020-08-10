@@ -9,6 +9,11 @@ class MY_RestController extends RestController
 	{
 		parent::__construct();
 	}
+
+	public function auth()
+	{
+		
+	}
 }
 
 /* End of file MY_RestController.php */

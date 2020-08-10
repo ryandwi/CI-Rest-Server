@@ -1,6 +1,5 @@
 {
 	"require": {
-		"php": ">=5.3.7",
 		"firebase/php-jwt": "^5.2",
 		"chriskacerguis/codeigniter-restserver": "^3.1"
 	}
